@@ -41,9 +41,36 @@ public class Node {
      * Calculate the output of a node.
      * You can get this value by using getOutput()
      */
-    public void calculateOutput() {
+        public void calculateOutput() {
         if (type == 2 || type == 4) {   //Not an input or bias node
             // TODO: add code here
+
+            // how do we calculate Output in here for hidden and output nodes?
+            // equal to the weight * attributes?
+            // calculates the output at the current node and stores that value in a member 
+            // variable called output value
+
+            // calculate value of a node. 
+            // equals to the sum of all the parents: weights * input?
+            
+            so if the node is type 2, we need to use 
+            reLU function : g(𝑧) = max(0, 𝑧)
+
+            we only need to update this.outputValue
+            but how do we know what node to calculate?
+
+            double sum = 0.0;
+
+            if (type == 2) {
+                for (int i = 0; i < parents.size() ;i++) {
+                    sum += (parents.get(i).weights * parents.get(i).node.inputValue);            
+                }
+                this.outputValue = Math.max(0, sum);
+            }
+            else if (type == 4) {
+                assume that we know all the outputs of the hidden units
+                calculate the output of output nodes
+            }
         }
     }
 
