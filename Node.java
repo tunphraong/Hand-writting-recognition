@@ -61,15 +61,24 @@ public class Node {
 
             double sum = 0.0;
 
-            if (type == 2) {
+            if (type == 2) { // type 2: hidden use ReLU
                 for (int i = 0; i < parents.size() ;i++) {
-                    sum += (parents.get(i).weights * parents.get(i).node.inputValue);            
+                    sum += (parents.get(i).weight * parents.get(i).node.inputValue);            
                 }
                 this.outputValue = Math.max(0, sum);
             }
-            else if (type == 4) {
+            else if (type == 4) { //Output -> use Softmax function
+
                //  assume that we know all the outputs of the hidden units
                // calculate the output of output nodes
+                for (int i = 0; i < parents.size() ;i++) {
+                    sum += (parents.get(i).weight * parents.get(i).node.inputValue);            
+                }
+
+                double output = Math.exp(sum);
+                // to do: divide output by the sum of all output nodes
+                // how to get the sum of all output nodes?
+                
             }
         }
     }
