@@ -90,12 +90,32 @@ public class NNImpl {
      * The parameters are stored as attributes of this class
      */
 
+    //trains the neural network using a training set, fixed learning rate, 
+    //and number of epochs (provided as input to the program).
+
     public void train() {
         // TODO: add code here
-
+        // list all the stuff that I need in here:
+        // learningRate
+        // ok so in here we can calculate the 
+       // from this we can access their parents to calculate 
+        
 
     }
 
+    public double sumOfOutput() { //sum of the outputNodes
+        double sum = 0.0;
+        for (int i = 0; i < outputNodes.size(); i++) { // for all the output Nodes
+            Node node = outputNodes.get(i);
+            
+            // get all the parents of a node, and then calculate the total sum
+            for (int j = 0; j < node.parents.size(); j++) {
+                sum += (node.parents.get(j).weight * node.parents.get(j).node.getOutput());
+            }
+        }
+        return sum;
+    }
+    
     /**
      * Calculate the cross entropy loss from the neural network for
      * a single instance.

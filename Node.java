@@ -76,6 +76,7 @@ public class Node {
                 }
 
                 double output = Math.exp(sum);
+                
                 // to do: divide output by the sum of all output nodes
                 // how to get the sum of all output nodes?
                 
