@@ -53,11 +53,11 @@ public class Node {
             // calculate value of a node. 
             // equals to the sum of all the parents: weights * input?
             
-            so if the node is type 2, we need to use 
-            reLU function : g(𝑧) = max(0, 𝑧)
+           //so if the node is type 2, we need to use 
+           // reLU function : g(𝑧) = max(0, 𝑧)
 
-            we only need to update this.outputValue
-            but how do we know what node to calculate?
+           // we only need to update this.outputValue
+           // but how do we know what node to calculate?
 
             double sum = 0.0;
 
@@ -68,8 +68,8 @@ public class Node {
                 this.outputValue = Math.max(0, sum);
             }
             else if (type == 4) {
-                assume that we know all the outputs of the hidden units
-                calculate the output of output nodes
+               //  assume that we know all the outputs of the hidden units
+               // calculate the output of output nodes
             }
         }
     }
