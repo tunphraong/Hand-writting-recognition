@@ -96,9 +96,15 @@ public class NNImpl {
     public void train() {
         // TODO: add code here
         // list all the stuff that I need in here:
-        // learningRate
-        // ok so in here we can calculate the 
-       // from this we can access their parents to calculate 
+        // Each pass through all of the training examples is called an epoch
+        for (int i = 0; i < maxEpoch; i++) { // for the number of epoch
+            for (int j = 0; j < trainingSet.size(); j++) { // for the number of instances in a training set
+                    // now we are in an instance of a training set
+                    // we let's say we want to training given an instance
+                    // what is the first step we have to take to train in an instance
+                    // 
+                }                   
+        }
         
 
     }
@@ -110,12 +116,13 @@ public class NNImpl {
             
             // get all the parents of a node, and then calculate the total sum
             for (int j = 0; j < node.parents.size(); j++) {
+                // total sum equals to weight of hidden nodes * output of those nodes
                 sum += (node.parents.get(j).weight * node.parents.get(j).node.getOutput());
             }
         }
         return sum;
     }
-    
+
     /**
      * Calculate the cross entropy loss from the neural network for
      * a single instance.
@@ -123,6 +130,7 @@ public class NNImpl {
      */
     private double loss(Instance instance) {
         // TODO: add code here
+    	
         return -1.0;
     }
 }

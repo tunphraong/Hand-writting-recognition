@@ -76,7 +76,7 @@ public class Node {
                 }
 
                 double output = Math.exp(sum);
-                
+
                 // to do: divide output by the sum of all output nodes
                 // how to get the sum of all output nodes?
                 
@@ -94,13 +94,40 @@ public class Node {
         } else {
             return outputValue;
         }
-
     }
 
     //Calculate the delta value of a node.
+    // store in delta
+    //type 2 means ReLU, type 4 means Softmax
     public void calculateDelta() {
         if (type == 2 || type == 4)  {
-            // TODO: add code here
+            if (type == 4) { // if the node is output
+                // what function do we use to calculate delta for output nodes?
+            	//yj - g(zj)?
+            	// where yj is the target value of x
+            	// g(zj) is the softmax function 
+            	//where do get the teacher output?	
+            }
+            
+            if (type == 2)  { // hidden unit
+            	// we want to calculate the delta of hidden unit
+            	
+            	double z = 0.0;
+            	int gPrime = 0;
+            	
+            	//calculate z 
+            	for (int i = 0; i < parents.size() ;i++) {
+                    z += (parents.get(i).weight * parents.get(i).node.inputValue);            
+                }
+            	
+            	if (z <= 0) {
+            		gPrime 
+            	}
+            	
+            	
+            	
+            }
+            
         }
     }
 
