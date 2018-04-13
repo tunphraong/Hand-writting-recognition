@@ -80,6 +80,14 @@ public class NNImpl {
 
     public int predict(Instance instance) {
         // TODO: add code here
+        // we are given one instance
+        // instance contains an array of attributes
+        // an attribute contains an 
+
+        for (int i = 0; i < instance.attributes.size(); i++) { // get the size of an instance
+            
+        }
+
         return -1;
     }
 
@@ -102,7 +110,8 @@ public class NNImpl {
                     // now we are in an instance of a training set
                     // we let's say we want to training given an instance
                     // what is the first step we have to take to train in an instance
-                    // 
+                    //
+
                 }                   
         }
         

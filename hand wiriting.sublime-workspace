@@ -1,0 +1,1007 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"traini",
+				"trainingSet"
+			],
+			[
+				"train",
+				"Train"
+			],
+			[
+				"output",
+				"outputNodes"
+			],
+			[
+				"outputndoe",
+				"outputNodeCount"
+			],
+			[
+				"input",
+				"inputValue"
+			],
+			[
+				"outpu",
+				"outputValue"
+			],
+			[
+				"entr",
+				"entropy"
+			],
+			[
+				"entro",
+				"entropyEach"
+			],
+			[
+				"attri",
+				"attributes"
+			],
+			[
+				"Info",
+				"InfoGain"
+			],
+			[
+				"get",
+				"get"
+			],
+			[
+				"INfo",
+				"InfoGain"
+			],
+			[
+				"parent",
+				"parentAttributeValue"
+			],
+			[
+				"DEc",
+				"DecTreeNode"
+			],
+			[
+				"new",
+				"newLabel"
+			],
+			[
+				"paren",
+				"parentAttributeValue"
+			],
+			[
+				"ins",
+				"instances"
+			],
+			[
+				"pare",
+				"parentAttributeValue"
+			],
+			[
+				"Insta",
+				"instances"
+			],
+			[
+				"build",
+				"buildTree"
+			],
+			[
+				"ent",
+				"entropyEach"
+			],
+			[
+				"getat",
+				"getAttributeIndex"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"cou",
+				"countB"
+			],
+			[
+				"labe",
+				"label"
+			],
+			[
+				"att",
+				"attrVals"
+			],
+			[
+				"Atri",
+				"attributeValues"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"majo",
+				"majorityLabel"
+			],
+			[
+				"majr",
+				"majorityLabel"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"curr",
+				"currentDepth-1"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"play",
+				"player1"
+			],
+			[
+				"alpha",
+				"alpha"
+			],
+			[
+				"best",
+				"bestMove"
+			],
+			[
+				"maxde",
+				"maxDepth"
+			],
+			[
+				"alha",
+				"alpha"
+			],
+			[
+				"alp",
+				"alpha"
+			],
+			[
+				"Mi",
+				"minValue"
+			],
+			[
+				"max",
+				"max"
+			],
+			[
+				"Minva",
+				"MIN_VALUE"
+			],
+			[
+				"min",
+				"MIN-VALUE"
+			],
+			[
+				"Min",
+				"MIN-VALUE"
+			],
+			[
+				"Ma",
+				"maxValue"
+			],
+			[
+				"mi",
+				"MIN_VALUE"
+			],
+			[
+				"MAX",
+				"MAX-VALUE"
+			],
+			[
+				"appl",
+				"applyMove"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"boar",
+				"boardState"
+			],
+			[
+				"albe",
+				"alphabetaSearch"
+			],
+			[
+				"is",
+				"isLegalMove"
+			],
+			[
+				"current",
+				"currentDepth"
+			],
+			[
+				"poin",
+				"point"
+			],
+			[
+				"a",
+				"auxiliary"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"mo",
+				"Move_disk"
+			],
+			[
+				"mve",
+				"move"
+			],
+			[
+				"move",
+				"Move_disk"
+			],
+			[
+				"mov",
+				"Move_disk"
+			],
+			[
+				"mvoe",
+				"Move_n"
+			],
+			[
+				"small",
+				"smallest"
+			],
+			[
+				"prio",
+				"priorityQ"
+			],
+			[
+				"q",
+				"q"
+			],
+			[
+				"expl",
+				"expolored"
+			],
+			[
+				"ge",
+				"getY"
+			],
+			[
+				"ki",
+				"king"
+			],
+			[
+				"Ki",
+				"king"
+			],
+			[
+				"n",
+				"null"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"add",
+				"addDecl"
+			],
+			[
+				"remo",
+				"removeScope"
+			],
+			[
+				"remove",
+				"removeScope"
+			],
+			[
+				"S",
+				"S"
+			],
+			[
+				"Sym",
+				"Sym"
+			],
+			[
+				"type",
+				"typeArray"
+			],
+			[
+				"key",
+				"keyStr"
+			],
+			[
+				"hash",
+				"hashMap"
+			],
+			[
+				"pl",
+				"player"
+			],
+			[
+				"p",
+				"player"
+			],
+			[
+				"has",
+				"hashTable"
+			],
+			[
+				"hashtal",
+				"hashtable"
+			],
+			[
+				"temp",
+				"tempArray"
+			],
+			[
+				"lis",
+				"listFiles"
+			],
+			[
+				"out",
+				"out"
+			],
+			[
+				"tem",
+				"tempArray"
+			],
+			[
+				"im",
+				"imt\timport junit.framework.TestCase;"
+			],
+			[
+				"pri",
+				"printState"
+			],
+			[
+				"fir",
+				"firstTime"
+			],
+			[
+				"pr",
+				"printState"
+			],
+			[
+				"goa",
+				"goalReached"
+			],
+			[
+				"suc",
+				"successor"
+			],
+			[
+				"ori",
+				"original-cutoff"
+			],
+			[
+				"print",
+				"printState"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"ini",
+				"initParent"
+			],
+			[
+				"Parent",
+				"parentPt"
+			],
+			[
+				"par",
+				"parentPt"
+			],
+			[
+				"su",
+				"successor"
+			],
+			[
+				"pu",
+				"push"
+			],
+			[
+				"el",
+				"el\telse"
+			],
+			[
+				"fo",
+				"for\tfor"
+			],
+			[
+				"succes",
+				"successor"
+			],
+			[
+				"sy",
+				"System"
+			],
+			[
+				"succ",
+				"successors"
+			],
+			[
+				"swp",
+				"swapFunc"
+			],
+			[
+				"swa",
+				"swapFunc"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"ca",
+				"Capacity"
+			],
+			[
+				"Nam",
+				"NAME_SIZE"
+			],
+			[
+				"stack",
+				"stack_top"
+			],
+			[
+				"inc",
+				"inc\t#include <…>"
+			],
+			[
+				"in",
+				"inc\t#include <…>"
+			],
+			[
+				"sBi",
+				"sBit-1"
+			],
+			[
+				"cach",
+				"cache"
+			],
+			[
+				"mis",
+				"miss_count"
+			],
+			[
+				"acc",
+				"accessData"
+			],
+			[
+				"ace",
+				"accessData"
+			],
+			[
+				"L",
+				"L"
+			],
+			[
+				"cache",
+				"cache_line_t"
+			],
+			[
+				"cac",
+				"cache_line_t"
+			],
+			[
+				"bloc",
+				"block_tag"
+			],
+			[
+				"m",
+				"move"
+			],
+			[
+				"tota",
+				"total_size"
+			],
+			[
+				"cu",
+				"curr_size-size"
+			],
+			[
+				"siz",
+				"size_status"
+			],
+			[
+				"size",
+				"size_status"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"last_filter": "boxy",
+		"selected_items":
+		[
+			[
+				"boxy",
+				"Boxy Theme: Extras"
+			],
+			[
+				"boxy ",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"theme",
+				"Colorsublime: Browse Themes Online"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown ",
+				"Set Syntax: Markdown"
+			],
+			[
+				"git: stat",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"box",
+				"Boxy Theme: Activation"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"material",
+				"Material Theme: Activate theme"
+			],
+			[
+				"instap",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colorsub",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter ",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"sublimelinter setting",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"sub",
+				"SublimeLinter: Clear Caches"
+			],
+			[
+				"colorsubm",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"colorsu",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"packakge",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Nam/Desktop/Hand-writting-recognition"
+	],
+	"file_history":
+	[
+		"/Users/Nam/Desktop/Hand-writting-recognition/to do list.todo",
+		"/Users/Nam/Desktop/Hand-writting-recognition/Node.java",
+		"/Users/Nam/Desktop/Hand-writting-recognition/NodeWeightPair.java",
+		"/Users/Nam/Desktop/Hand-writting-recognition/NNImpl.java",
+		"/Users/Nam/Desktop/rand.cpp",
+		"/Users/Nam/Desktop/DecisionTreeImpl.java",
+		"/Users/Nam/Desktop/day one /Journal.txt",
+		"/Users/Nam/Desktop/day one /29 Entries - Export/Journal.txt",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/HW4_Skeleton/NNImpl.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/HW4_Skeleton/DigitClassifier.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/HW4_Skeleton/Node.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/HW4_Skeleton/Instance.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/sample_output/test1.txt",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/sample_output/train1.txt",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/sample_output/sample_output1.txt",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/sample_output/view.py",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/sample_output/testcases.txt",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 4/sample_output/sample_output3.txt",
+		"/Users/Nam/Desktop/Personality.md",
+		"/Users/Nam/Downloads/HW4_Skeleton/Node.java",
+		"/Users/Nam/Desktop/HW3_Skeleton/DecisionTreeImpl.java",
+		"/Users/Nam/Desktop/HW3_Skeleton/DecisionTreeImpl-4.java",
+		"/Users/Nam/Desktop/HW3_Skeleton/DecisionTreeImpl 2.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/sample_outputs/Sample_Output_flag3.txt",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/sample_outputs/Sample_Output_flag0.txt",
+		"/Users/Nam/Downloads/untitled folder/DecisionTreeImpl-4.java",
+		"/Users/Nam/Desktop/HW3_Skeleton/0.txt",
+		"/Users/Nam/Desktop/HW3_Skeleton/1.txt",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/HW3_Skeleton/DecisionTreeImpl-3.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/HW3_Skeleton/DecisionTreeImpl.java",
+		"/Users/Nam/Downloads/DecisionTreeImpl-3.java",
+		"/Users/Nam/Desktop/bootstrap.sql",
+		"/Users/Nam/Downloads/pages-themes-slate-8e930c2/index.md",
+		"/Users/Nam/Downloads/pages-themes-slate-8e930c2/_layouts/default.html",
+		"/Users/Nam/Downloads/pages-themes-slate-8e930c2/_config.yml",
+		"/Users/Nam/Desktop/git website/tunphraong.github.io/index.html",
+		"/Users/Nam/Documents/GitHub/Project-3/hello.java",
+		"/Users/Nam/Documents/GitHub/Project-3/DecTreeNode.java",
+		"/Users/Nam/Documents/GitHub/Project-3/DecisionTree.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 1/bfs.txt",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 2/Awari 2/studentAI.java",
+		"/Users/Nam/Google Drive/Study/Passed classes/DS/C++/C++ test/FINALLLLLLLLLL/Ch14_Exp12.cpp",
+		"/Users/Nam/Google Drive/Study/Passed classes/DS/C++/C++ test/STRUCT/herkimer.cpp",
+		"/Users/Nam/Google Drive/Study/Passed classes/Java/RectangleProgram.java",
+		"/Users/Nam/Downloads/cases/Hidden_dfs6.txt",
+		"/Users/Nam/Downloads/cases/Hidden_dfs5.txt",
+		"/Users/Nam/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/HW3_Skeleton 2/DecisionTreeImpl.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/HW3_Skeleton/DecTreeNode.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/HW3_Skeleton/DecisionTree.java",
+		"/Users/Nam/Desktop/test.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/HW3_Skeleton/DataSet.java",
+		"/Users/Nam/Desktop/scartch.md",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/HW3_Skeleton/Project-3/DecTreeNode.java",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/untitled.md",
+		"/Users/Nam/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/Nam/Library/Application Support/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/Nam/Google Drive/Spring 2018/AI/Homework 3/HW3_Skeleton/hello.java",
+		"/Users/Nam/project1/text.md",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 3/HW3_Skeleton/DecTreeNode.java",
+		"/Users/Nam/Desktop/Coding/hello.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 1/KingsKnightmare.java",
+		"/Users/Nam/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/Nam/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Nam/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Nam/Desktop/findScore.java",
+		"/Users/Nam/Desktop/fibo.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari 2/studentAI.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari 2/setup.txt",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/studentAI.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/Match.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/setup2.txt",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/setup.txt",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/Player.java",
+		"/Users/Nam/Desktop/alphabeta.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/Utility.java",
+		"/Users/Nam/Desktop/Spring 2018/CS 577/Homework 3/problem1",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/BoardState.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/HumanPlayer.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/Awari.java",
+		"/Users/Nam/Desktop/Scientific Methods.txt",
+		"/Users/Nam/Desktop/Spring 2018/CS 577/1a.tex",
+		"/Users/Nam/Desktop/Spring 2018/CS 577/1ab.java",
+		"/Users/Nam/Desktop/Spring 2018/CS 577/problem1.java",
+		"/Users/Nam/Desktop/TowersOfHanoi.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/BigPot.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/Bean.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/Pot.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/MyPanel.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 2/Awari/GUI.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 1/SampleCasesAndOutput/SampleTest_dfs1.txt",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 1/SampleCasesAndOutput/Output_SampleTest_dfs1.txt",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 1/PriorityQ.java",
+		"/Users/Nam/Downloads/KingsKnightmare.java",
+		"/Users/Nam/Desktop/Spring 2018/AI/Homework 1/SampleTest_bfs1.txt",
+		"/Users/Nam/Desktop/Spring 2018/CS 577/1a.note",
+		"/Users/Nam/Desktop/Spring 2018/CS 577/1a.make",
+		"/Users/Nam/Library/Mobile Documents/com~apple~CloudDocs/Spring 2018/AI/something.java",
+		"/Users/Nam/Desktop/Google Drive/Spring 2018/Compiler/TestList.java",
+		"/Users/Nam/Desktop/Google Drive/Spring 2018/Compiler/P1.java",
+		"/Users/Nam/Desktop/Program 1 editted.java",
+		"/Users/Nam/Desktop/Google Drive/Spring 2018/Compiler/Sym.java",
+		"/Users/Nam/Desktop/Google Drive/Spring 2018/Compiler/EmptySymTableException.java",
+		"/Users/Nam/Desktop/Google Drive/Spring 2018/Compiler/SymTable.java",
+		"/Users/Nam/Desktop/Google Drive/Spring 2018/Compiler/DuplicateSymException.java",
+		"/Users/Nam/Desktop/Sym.java",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/scsi/SCSICmds_MODE_Definitions.h",
+		"/Users/Nam/Desktop/untitled.java",
+		"/Applications/Bear.app/Contents/Resources/Custom Tag Keywords/en.plist",
+		"/Users/Nam/Desktop/intersection of two linked list.java",
+		"/Users/Nam/Desktop/oddEvenLinkedList.java",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/ndrvsupport/IONDRVLibraries.h",
+		"/Users/Nam/Downloads/noleech1.php",
+		"/Users/Nam/Desktop/Google Drive/Fall 2017/540/HW6/Reversi.java",
+		"/Users/Nam/Desktop/Google Drive/Fall 2017/540/HW6/back the fuck up.java",
+		"/Users/Nam/Desktop/Google Drive/Fall 2017/540/Project 2/torus_working 5.java",
+		"/Users/Nam/Desktop/Google Drive/Fall 2017/540/not yet.java",
+		"/Users/Nam/Desktop/Google Drive/Fall 2017/540/HW5/corpus.java",
+		"/Users/Nam/Google Drive/Pro 4.cpp",
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/HW5/Essays/corpus.java",
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/HW5/corpus.java",
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Torus.java",
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/working 4/Torus.java",
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/working 4/Torus_save.java",
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/working 5/Torus.java",
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/torus_working 5.java",
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/working 5/torus.java",
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/Torus_original.java"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/Nam/Desktop/Hand-writting-recognition"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 72.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

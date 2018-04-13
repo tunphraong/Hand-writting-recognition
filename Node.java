@@ -120,9 +120,19 @@ public class Node {
                     z += (parents.get(i).weight * parents.get(i).node.inputValue);            
                 }
             	
-            	if (z <= 0) {
-            		gPrime 
-            	}
+            	if (z <= 0) gPrime = 0;
+                else gPrime = 1;
+
+                // sum of all the output nodes
+                // weight of jk * delta k
+                // k is the output
+                // assume we already know delta k
+                for (int j = 0; j < outputNodes.size(); j++) {
+                    
+                }
+
+
+            	
             	
             	
             	
