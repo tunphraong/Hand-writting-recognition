@@ -78,17 +78,34 @@ public class NNImpl {
      * The parameter is a single instance
      */
 
-    public int predict(Instance instance) {
+    public int predict(Instance instance) { // ultimately, we want output
         // TODO: add code here
         // we are given one instance
         // instance contains an array of attributes
-        // an attribute contains an 
+        // an attribute contains an array of input values -> so they are # of input?
 
         for (int i = 0; i < instance.attributes.size(); i++) { // get the size of an instance
-            
+            // set the input values for input nodes
+            inputNodes.get(i).setInput(instance.attributes.get(i));
         }
 
-        return -1;
+        // given input for input nodes, we can calculate values of hidden nodes
+        for (int j = 0;j < hiddenNodes.size();j++) {
+            hiddenNodes.get(j).calculateOutput();
+        }
+
+        for (int k = 0; k < outputNodes.size();k++) {
+            outputNodes.get(k).calculateOutput(); // get nodes and calculate output 
+        }
+
+        int ret = 0; // variable to hold biggest value among the output Nodes
+        double val = outputNodes.get(0).getOutput();
+        for (int m = 0; m < outputNodes.size(); m++) {
+            if (ret < outputNodes.get(m).getOutput())
+                ret = m;
+        }
+
+        return ret;
     }
 
 

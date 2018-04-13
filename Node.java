@@ -75,7 +75,8 @@ public class Node {
                     sum += (parents.get(i).weight * parents.get(i).node.inputValue);            
                 }
 
-                double output = Math.exp(sum);
+                double output = Math.exp(sum) / sumOfOutput();
+                
 
                 // to do: divide output by the sum of all output nodes
                 // how to get the sum of all output nodes?
@@ -127,6 +128,7 @@ public class Node {
                 // weight of jk * delta k
                 // k is the output
                 // assume we already know delta k
+                // how do get accessed to the outputNodes
                 for (int j = 0; j < outputNodes.size(); j++) {
                     
                 }
