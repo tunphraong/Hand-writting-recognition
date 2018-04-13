@@ -89,18 +89,31 @@ public class NNImpl {
             inputNodes.get(i).setInput(instance.attributes.get(i));
         }
 
+        // we need to pass in total outputSums to calculateOutput function
+
+
+        // calculate output for hidden nodes
+        for (Node hid: hiddenNodes ) {
+            hid.calculateOutput(sumOfOutput());
+        }
+
+        // calculate output for outputNodes
+        for (Node out : outputNodes ) {
+            out.calculateOutput(sumOfOutput());
+        }
+
         // given input for input nodes, we can calculate values of hidden nodes
         for (int j = 0;j < hiddenNodes.size();j++) {
-            hiddenNodes.get(j).calculateOutput();
+            hiddenNodes.get(j).getOutput();
         }
 
         for (int k = 0; k < outputNodes.size();k++) {
-            outputNodes.get(k).calculateOutput(); // get nodes and calculate output 
+            outputNodes.get(k).getOutput();; // get nodes and calculate output 
         }
 
         int ret = 0; // variable to hold biggest value among the output Nodes
         double val = outputNodes.get(0).getOutput();
-        for (int m = 0; m < outputNodes.size(); m++) {
+        for (int m = 1; m < outputNodes.size(); m++) {
             if (ret < outputNodes.get(m).getOutput())
                 ret = m;
         }
@@ -127,12 +140,30 @@ public class NNImpl {
                     // now we are in an instance of a training set
                     // we let's say we want to training given an instance
                     // what is the first step we have to take to train in an instance
-                    //
+                    int outPut = predict(trainingSet.get(j)); // calculate outPut for output nodes
+
+                    // get teacher output
+                    int teacher = 0;
+                    for (int k = 0; k < trainingSet.get(j).classValues.size();k++) {
+                        if (trainingSet.get(j).classValues.get(k) == 1)
+                         teacher = k;
+                    }
+
+                    //calculate error (Tk - Ok) at each output unit k
+                    for (Node a : outputNodes ) {
+                        a.calculateDelta(teacher);
+                    }
+
+                    
+
+
+
+
+
+
 
                 }                   
         }
-        
-
     }
 
     public double sumOfOutput() { //sum of the outputNodes
@@ -156,6 +187,7 @@ public class NNImpl {
      */
     private double loss(Instance instance) {
         // TODO: add code here
+
     	
         return -1.0;
     }

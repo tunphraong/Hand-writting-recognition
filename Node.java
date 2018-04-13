@@ -41,7 +41,7 @@ public class Node {
      * Calculate the output of a node.
      * You can get this value by using getOutput()
      */
-        public void calculateOutput() {
+        public void calculateOutput(double sumOfOutput) {
         if (type == 2 || type == 4) {   //Not an input or bias node
             // TODO: add code here
 
@@ -75,8 +75,10 @@ public class Node {
                     sum += (parents.get(i).weight * parents.get(i).node.inputValue);            
                 }
 
-                double output = Math.exp(sum) / sumOfOutput();
-                
+                double output = Math.exp(sum) / sumOfOutput;
+
+                this.outputValue = output;
+
 
                 // to do: divide output by the sum of all output nodes
                 // how to get the sum of all output nodes?
@@ -84,6 +86,8 @@ public class Node {
             }
         }
     }
+
+
 
     //Gets the output value
     public double getOutput() {
@@ -100,7 +104,7 @@ public class Node {
     //Calculate the delta value of a node.
     // store in delta
     //type 2 means ReLU, type 4 means Softmax
-    public void calculateDelta() {
+    public void calculateDelta(int teacher) {
         if (type == 2 || type == 4)  {
             if (type == 4) { // if the node is output
                 // what function do we use to calculate delta for output nodes?
@@ -132,16 +136,10 @@ public class Node {
                 for (int j = 0; j < outputNodes.size(); j++) {
                     
                 }
-
-
-            	
-            	
-            	
-            	
             }
-            
         }
     }
+    
 
 
     //Update the weights between parents node and current node
