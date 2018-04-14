@@ -75,7 +75,7 @@ public class Node {
                     sum += (parents.get(i).weight * parents.get(i).node.outputValue);            
                 }
 
-                double output = Math.exp(sum) / Math.exp(sumOfOutput);
+                double output = Math.exp(sum) / sumOfOutput;
 
                 this.outputValue = output;
             }
@@ -149,7 +149,8 @@ public class Node {
             // udpate parents weight
             // calculate delta weight
             for (NodeWeightPair a : parents) {
-                double deltaWeight = learningRate * outputValue * a.delta;
+               //Δwj,k = α aj ∆k
+               a.delta = learningRate * a.getOutput() * delta;
             }
 
             // do we need to do w + delta weight in here?

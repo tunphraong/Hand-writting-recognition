@@ -93,12 +93,12 @@ public class NNImpl {
 
         // calculate output for hidden nodes
         for (Node hid: hiddenNodes ) {
-            hid.calculateOutput(sumOfOutput());
+            hid.calculateOutput(weightedSum());
         }
 
         // calculate output for outputNodes
         for (Node out : outputNodes ) {
-            out.calculateOutput(sumOfOutput());
+            out.calculateOutput(weightedSum());
         }
 
         // given input for input nodes, we can calculate values of hidden nodes
@@ -164,8 +164,6 @@ public class NNImpl {
                     }
 
                     // get stuck at calculateDelta
-
-                    //ouble deltaWeightHidden = 0.0;
                     //for each hidden unit j and output unit k compute
                    /* for (Node hid : hiddenNodes) { // for each hidden nodes
                         for (Node out : outputNodes  ) { // for each output nodes
@@ -180,44 +178,53 @@ public class NNImpl {
 
                     */
 
+
+                    //for each hidden unit j and output unit k compute
+                    // calculate delta weight from hidden to output
                     for (Node out: outputNodes) {
                         out.updateWeight(learningRate);
                     }
 
-                    double deltaWeightInput
-                    // foreach input unit i and hidden unit j compute
+                    // for each input unit i and hidden unit j compute
                     // Δwi,j =α ai Δj
-
-                    for (Node in : inputNodes) {
-                        for (Node hid : hiddenNodes ) {
-                            deltaWeightInput = learningRate * in.getOutput() * hid.
-                        }
+                    // calculate delta weight from input to hidden
+                    for (Node hid: hiddenNodes ) {
+                        hid.updateWeight(learningRate);
                     }
 
+                    // ok now we want to update all the weights    
 
-                  
-
-
-
-
-                    
 
                 }                   
         }
     }
 
-    public double sumOfOutput() { //sum of the outputNodes
-        double sum = 0.0;
+    public double weightedSum() { //sum of the outputNodes
+        
+        double temp = 0.0;
+        /*
         for (int i = 0; i < outputNodes.size(); i++) { // for all the output Nodes
             Node node = outputNodes.get(i);
             
-            // get all the parents of a node, and then calculate the total sum
+            
             for (int j = 0; j < node.parents.size(); j++) {
                 // total sum equals to weight of hidden nodes * output of those nodes
                 sum += (node.parents.get(j).weight * node.parents.get(j).node.getOutput());
+
             }
         }
-        return sum;
+        */
+
+        // get all the parents of a node, and then calculate the total sum
+        for (Node node : outputNodes ) {
+            double sum = 0.0;
+            for (NodeWeightPair par : node.parents) {
+                sum += (par.weight * par.node.getOutput());
+            }
+            sum = Math.exp(sum);
+            temp += sum;
+        }
+        return temp;
     }
 
     /**
