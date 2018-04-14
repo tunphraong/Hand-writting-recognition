@@ -91,7 +91,6 @@ public class NNImpl {
 
         // we need to pass in total outputSums to calculateOutput function
 
-
         // calculate output for hidden nodes
         for (Node hid: hiddenNodes ) {
             hid.calculateOutput(sumOfOutput());
@@ -103,13 +102,13 @@ public class NNImpl {
         }
 
         // given input for input nodes, we can calculate values of hidden nodes
-        for (int j = 0;j < hiddenNodes.size();j++) {
-            hiddenNodes.get(j).getOutput();
-        }
+       // for (int j = 0;j < hiddenNodes.size();j++) {
+        //    hiddenNodes.get(j).getOutput();
+       // }
 
-        for (int k = 0; k < outputNodes.size();k++) {
-            outputNodes.get(k).getOutput();; // get nodes and calculate output 
-        }
+       // for (int k = 0; k < outputNodes.size();k++) {
+       //     outputNodes.get(k).getOutput();; // get nodes and calculate output 
+       // }
 
         int ret = 0; // variable to hold biggest value among the output Nodes
         double val = outputNodes.get(0).getOutput();
@@ -136,11 +135,20 @@ public class NNImpl {
         // list all the stuff that I need in here:
         // Each pass through all of the training examples is called an epoch
         for (int i = 0; i < maxEpoch; i++) { // for the number of epoch
+            Collections.shuffle(training,random);
             for (int j = 0; j < trainingSet.size(); j++) { // for the number of instances in a training set
                     // now we are in an instance of a training set
-                    // we let's say we want to training given an instance
+                    // we alet's say we want to training given an instance
                     // what is the first step we have to take to train in an instance
+
+
                     int outPut = predict(trainingSet.get(j)); // calculate outPut for output nodes
+
+
+
+                    // update gradient
+                    // 
+
 
                     // get teacher output
                     int teacher = 0;
@@ -149,18 +157,50 @@ public class NNImpl {
                          teacher = k;
                     }
 
+
                     //calculate error (Tk - Ok) at each output unit k
                     for (Node a : outputNodes ) {
-                        a.calculateDelta(teacher);
+                        a.calculateDelta(teacher, outputNodes); // the parametmer outputNodes don't really need in here
                     }
 
+                    // get stuck at calculateDelta
+
+                    //ouble deltaWeightHidden = 0.0;
+                    //for each hidden unit j and output unit k compute
+                   /* for (Node hid : hiddenNodes) { // for each hidden nodes
+                        for (Node out : outputNodes  ) { // for each output nodes
+                            //α aj (Tk - Ok) g’(ink)
+                            // learning rate * outPut of a hidden unit * .
+                            deltaWeightHidden = learningRate * hid.getOutput() * out.calculateDelta();
+                            // create a new arrayList in here to store the values
+                            // Question: Delta is private, how do we get that?
+                            // Maybe we have to sohuld some function in Node
+                        }
+                    }
+
+                    */
+
+                    for (Node out: outputNodes) {
+                        out.updateWeight(learningRate);
+                    }
+
+                    double deltaWeightInput
+                    // foreach input unit i and hidden unit j compute
+                    // Δwi,j =α ai Δj
+
+                    for (Node in : inputNodes) {
+                        for (Node hid : hiddenNodes ) {
+                            deltaWeightInput = learningRate * in.getOutput() * hid.
+                        }
+                    }
+
+
+                  
+
+
+
+
                     
-
-
-
-
-
-
 
                 }                   
         }
@@ -187,6 +227,7 @@ public class NNImpl {
      */
     private double loss(Instance instance) {
         // TODO: add code here
+
 
     	
         return -1.0;

@@ -63,7 +63,7 @@ public class Node {
 
             if (type == 2) { // type 2: hidden use ReLU
                 for (int i = 0; i < parents.size() ;i++) {
-                    sum += (parents.get(i).weight * parents.get(i).node.inputValue);            
+                    sum += (parents.get(i).weight * parents.get(i).node.outputValue);            
                 }
                 this.outputValue = Math.max(0, sum);
             }
@@ -72,22 +72,15 @@ public class Node {
                //  assume that we know all the outputs of the hidden units
                // calculate the output of output nodes
                 for (int i = 0; i < parents.size() ;i++) {
-                    sum += (parents.get(i).weight * parents.get(i).node.inputValue);            
+                    sum += (parents.get(i).weight * parents.get(i).node.outputValue);            
                 }
 
-                double output = Math.exp(sum) / sumOfOutput;
+                double output = Math.exp(sum) / Math.exp(sumOfOutput);
 
                 this.outputValue = output;
-
-
-                // to do: divide output by the sum of all output nodes
-                // how to get the sum of all output nodes?
-                
             }
         }
     }
-
-
 
     //Gets the output value
     public double getOutput() {
@@ -104,38 +97,45 @@ public class Node {
     //Calculate the delta value of a node.
     // store in delta
     //type 2 means ReLU, type 4 means Softmax
-    public void calculateDelta(int teacher) {
+    public void calculateDelta(int teacher, ArrayList<Node> outputNodes ) {
         if (type == 2 || type == 4)  {
             if (type == 4) { // if the node is output
-                // what function do we use to calculate delta for output nodes?
-            	//yj - g(zj)?
-            	// where yj is the target value of x
-            	// g(zj) is the softmax function 
-            	//where do get the teacher output?	
+                //yj - g(zj)?
+                //yj is the teacher
+                // g(zj) is the softmax function 
+                double delta = teacher - outputValue;
+                this.delta = delta;
             }
             
             if (type == 2)  { // hidden unit
             	// we want to calculate the delta of hidden unit
-            	
+
+            	double delta = 0.0;
             	double z = 0.0;
             	int gPrime = 0;
             	
             	//calculate z 
             	for (int i = 0; i < parents.size() ;i++) {
-                    z += (parents.get(i).weight * parents.get(i).node.inputValue);            
+                    z += (parents.get(i).weight * parents.get(i).node.outputValue);
                 }
-            	
+
+                 //weight of jk * delta k
+                //come up with gPrime
             	if (z <= 0) gPrime = 0;
                 else gPrime = 1;
+
+                // we need to know all the outputNodes
+                for (Node out : outputNodes) {
+                    // how do we know wjk * delta k?
+                    delta = out.delta * ;
+                }
 
                 // sum of all the output nodes
                 // weight of jk * delta k
                 // k is the output
                 // assume we already know delta k
                 // how do get accessed to the outputNodes
-                for (int j = 0; j < outputNodes.size(); j++) {
-                    
-                }
+                
             }
         }
     }
@@ -146,6 +146,15 @@ public class Node {
     public void updateWeight(double learningRate) {
         if (type == 2 || type == 4) {
             // TODO: add code here
+            // udpate parents weight
+            // calculate delta weight
+            for (NodeWeightPair a : parents) {
+                double deltaWeight = learningRate * outputValue * a.delta;
+            }
+
+            // do we need to do w + delta weight in here?
+
+
         }
     }
 }
