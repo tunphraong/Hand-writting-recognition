@@ -108,7 +108,7 @@ public class Node {
     public double getDelta() {
 
        // if (type == 2 || type == 4)
-            return delta;
+            return this.delta;
     }
 
     //Calculate the delta value of a node.
@@ -121,7 +121,7 @@ public class Node {
                 //yj is the teacher
                 // g(zj) is the softmax function 
                 double delta = teacher - outputValue;
-                System.out.println("teacher: " + teacher);
+                //System.out.println("teacher: " + teacher);
                 this.delta = delta;
             }
             
@@ -151,32 +151,23 @@ public class Node {
                 // weight of jk * delta k
                 // k is the output
                 // assume we already know delta k
-                // how do get accessed to the outputNodes
-                
-             }
-
-             
-        }
-
-        
+                // how do get accessed to the outputNodes  
+             }    
+        }   
     }
-    
-
-
     //Update the weights between parents node and current node
     public void updateWeight(double learningRate) {
         if (type == 2 || type == 4) {
             // TODO: add code here
             // udpate parents weight
             // calculate delta weight
+
             for (NodeWeightPair a : parents) {
                //Δwj,k = α aj ∆k
-               a.delta = learningRate * a.node.getOutput() * delta;
+               double deltaWeight = learningRate * a.node.getOutput() * this.delta;
+               a.weight += deltaWeight;
             }
-
             // do we need to do w + delta weight in here?
-
-
         }
     }
 }

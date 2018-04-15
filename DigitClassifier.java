@@ -57,7 +57,7 @@ public class DigitClassifier {
 
         Integer[] outputs = new Integer[testSet.size()];
 
-        /*
+        
         int correct = 0;
         for (int i = 0; i < testSet.size(); i++) {
             //Getting output from network
@@ -80,7 +80,7 @@ public class DigitClassifier {
 
         System.out.println("Total instances: " + testSet.size());
         System.out.println("Correctly classified: " + correct);
-        */
+        
     }
 
     // Reads a file and gets the list of instances
