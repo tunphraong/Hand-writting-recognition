@@ -57,7 +57,7 @@ public class DigitClassifier {
 
         Integer[] outputs = new Integer[testSet.size()];
 
-
+        /*
         int correct = 0;
         for (int i = 0; i < testSet.size(); i++) {
             //Getting output from network
@@ -76,9 +76,11 @@ public class DigitClassifier {
             }
         }
 
+
+
         System.out.println("Total instances: " + testSet.size());
         System.out.println("Correctly classified: " + correct);
-
+        */
     }
 
     // Reads a file and gets the list of instances
@@ -108,8 +110,11 @@ public class DigitClassifier {
                         Instance inst = new Instance();
                         for (int i = 0; i < attributeCount; i++)
                             inst.attributes.add(Double.parseDouble(vals[i]));
-                        for (int i = attributeCount; i < vals.length; i++)
+                        for (int i = attributeCount; i < vals.length; i++){
                             inst.classValues.add(Integer.parseInt(vals[i]));
+                            //System.out.println(vals[i]);
+                        }
+                       
                         data.add(inst);
                         break;
                 }
@@ -141,3 +146,4 @@ public class DigitClassifier {
 
     }
 }
+//

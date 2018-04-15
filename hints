@@ -1,0 +1,22 @@
+//for all epoch (maxepoch)
+    	//Collections.shuffle(training,random) 
+    	//for training set.size - all instances of training set
+    	//list of attributes and list of classvalues
+    	//on class values, do forward prop
+    		//set all inputs of input node
+    			//for attributes.size
+    			//depending on index of attribute value, use it inside inputnodes and update that indexnode using the indexofattribute
+    	//inputnodes.geti: currentinputnode
+    	//setinput.attribute.get(i)
+    	//update hidden nodes: 4 hidden loops, iterate through
+    	//calculate output
+    	//iterate through output nodes
+    	//update output
+    	
+    	
+    	//backward prop
+    	//similar to way we set input for input node, set outputgradient for output node
+    	//helper method setGradient in node
+    	//above, we were updating input nodes, here do output nodes (setinput= setgradient), attributeval=classvalues.get(i)
+    	//update values for outputnodes, hidden nodes, weights for output and hidden nodes (call functions from node class)
+    	//find total loss(go through input set- make var loss, keep adding using loss method) and print
