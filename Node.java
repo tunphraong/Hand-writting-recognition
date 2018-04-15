@@ -114,7 +114,7 @@ public class Node {
     //Calculate the delta value of a node.
     // store in delta
     //type 2 means ReLU, type 4 means Softmax
-    public void calculateDelta(int teacher, ArrayList<Node> outputNodes ) {
+    public void calculateDelta(int teacher) {
         if (type == 2 || type == 4)  {
             if (type == 4) { // if the node is output
                 //yj - g(zj)?
@@ -129,24 +129,23 @@ public class Node {
             	// we want to calculate the delta of hidden unit
 
             	double delta = 0.0;
-            	double z = 0.0;
+            	double sum = 0.0;
             	int gPrime = 0;
             	
             	//calculate z 
-            	for (int i = 0; i < parents.size() ;i++) {
-                    z += (parents.get(i).weight * parents.get(i).node.outputValue);
+            	// for (int i = 0; i < parents.size() ;i++) {
+             //        z += (parents.get(i).weight * parents.get(i).node.outputValue);
+             //    }
+                for (NodeWeightPair hid : parents ) {
+                    sum += (hid.weight * hid.node.getOutput());
                 }
 
                  //weight of jk * delta k
                 //come up with gPrime
-            	if (z <= 0) gPrime = 0;
+            	if (sum <= 0) gPrime = 0;
                 else gPrime = 1;
 
-                // we need to know all the outputNodes
-                for (Node out : outputNodes) {
-                    // how do we know wjk * delta k?
-                    delta = out.delta * ;
-                }
+                this.delta = gPrime * outputGradient;
 
                 // sum of all the output nodes
                 // weight of jk * delta k

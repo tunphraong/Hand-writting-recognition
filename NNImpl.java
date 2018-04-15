@@ -195,11 +195,11 @@ public class NNImpl {
                     for (int m = 0;m < outputNodes.size();m++ ) {
                         //trainingSet.get(0).classValues.get(m);
                         if (teacher == m) {
-                            outputNodes.get(m).calculateDelta(1, outputNodes);
+                            outputNodes.get(m).calculateDelta(1);
                             System.out.println("delta values: " + outputNodes.get(m).getDelta());
                         }
                         else {
-                            outputNodes.get(m).calculateDelta(0,outputNodes);
+                            outputNodes.get(m).calculateDelta(0);
                             System.out.println("delta values: " + outputNodes.get(m).getDelta());
                         }
                     }
@@ -230,6 +230,21 @@ public class NNImpl {
 
                        // we are doing 
                     }
+
+                    //given outputGradient, we can calculate delta of hidden notes
+                    for (Node hid : hiddenNodes ) {
+                        hid.calculateDelta(teacher);
+                    }
+
+                    for (Node test : hiddenNodes ) {
+                        System.out.println("delta of hidden: " + test.getDelta());
+                    }
+
+
+
+
+
+
 
 
 
