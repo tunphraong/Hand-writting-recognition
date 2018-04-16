@@ -4,28 +4,148 @@
 		"selected_items":
 		[
 			[
-				"traini",
-				"trainingSet"
+				"class",
+				"classValues"
 			],
 			[
-				"train",
-				"Train"
+				"we",
+				"weights"
+			],
+			[
+				"pra",
+				"parents"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"detl",
+				"deltaWeight"
+			],
+			[
+				"delta",
+				"deltaWeight"
+			],
+			[
+				"upda",
+				"update"
+			],
+			[
+				"Node",
+				"NodeWeightPair"
+			],
+			[
+				"out",
+				"outputNodes"
+			],
+			[
+				"caucla",
+				"calculateDelta"
 			],
 			[
 				"output",
 				"outputNodes"
 			],
 			[
-				"outputndoe",
-				"outputNodeCount"
+				"oup",
+				"outputNodes"
 			],
 			[
-				"input",
+				"inpu",
 				"inputValue"
+			],
+			[
+				"su",
+				"sum"
+			],
+			[
+				"in",
+				"in\tinterface"
+			],
+			[
+				"get",
+				"get"
+			],
+			[
+				"trainin",
+				"trainingSet"
+			],
+			[
+				"update",
+				"updateWeight"
+			],
+			[
+				"outp",
+				"outputNodes"
+			],
+			[
+				"NO",
+				"NodeWeightPair"
 			],
 			[
 				"outpu",
 				"outputValue"
+			],
+			[
+				"hidden",
+				"hiddenNodes"
+			],
+			[
+				"input",
+				"inputNodes"
+			],
+			[
+				"calculat",
+				"calculateDelta"
+			],
+			[
+				"hid",
+				"hid"
+			],
+			[
+				"learnin",
+				"learningRate"
+			],
+			[
+				"Array",
+				"ArrayList"
+			],
+			[
+				"sum",
+				"sumOfOutput"
+			],
+			[
+				"clas",
+				"classValues"
+			],
+			[
+				"train",
+				"trainingSet"
+			],
+			[
+				"tra",
+				"trainingSet"
+			],
+			[
+				"traning",
+				"trainingSet"
+			],
+			[
+				"ret",
+				"ret"
+			],
+			[
+				"hidde",
+				"hiddenNodes"
+			],
+			[
+				"traini",
+				"trainingSet"
+			],
+			[
+				"outputndoe",
+				"outputNodeCount"
 			],
 			[
 				"entr",
@@ -42,10 +162,6 @@
 			[
 				"Info",
 				"InfoGain"
-			],
-			[
-				"get",
-				"get"
 			],
 			[
 				"INfo",
@@ -276,10 +392,6 @@
 				"king"
 			],
 			[
-				"n",
-				"null"
-			],
-			[
 				"th",
 				"throw"
 			],
@@ -340,10 +452,6 @@
 				"listFiles"
 			],
 			[
-				"out",
-				"out"
-			],
-			[
 				"tem",
 				"tempArray"
 			],
@@ -396,10 +504,6 @@
 				"parentPt"
 			],
 			[
-				"su",
-				"successor"
-			],
-			[
 				"pu",
 				"push"
 			],
@@ -410,115 +514,28 @@
 			[
 				"fo",
 				"for\tfor"
-			],
-			[
-				"succes",
-				"successor"
-			],
-			[
-				"sy",
-				"System"
-			],
-			[
-				"succ",
-				"successors"
-			],
-			[
-				"swp",
-				"swapFunc"
-			],
-			[
-				"swa",
-				"swapFunc"
-			],
-			[
-				"s",
-				"s"
-			],
-			[
-				"po",
-				"position"
-			],
-			[
-				"ca",
-				"Capacity"
-			],
-			[
-				"Nam",
-				"NAME_SIZE"
-			],
-			[
-				"stack",
-				"stack_top"
-			],
-			[
-				"inc",
-				"inc\t#include <…>"
-			],
-			[
-				"in",
-				"inc\t#include <…>"
-			],
-			[
-				"sBi",
-				"sBit-1"
-			],
-			[
-				"cach",
-				"cache"
-			],
-			[
-				"mis",
-				"miss_count"
-			],
-			[
-				"acc",
-				"accessData"
-			],
-			[
-				"ace",
-				"accessData"
-			],
-			[
-				"L",
-				"L"
-			],
-			[
-				"cache",
-				"cache_line_t"
-			],
-			[
-				"cac",
-				"cache_line_t"
-			],
-			[
-				"bloc",
-				"block_tag"
-			],
-			[
-				"m",
-				"move"
-			],
-			[
-				"tota",
-				"total_size"
-			],
-			[
-				"cu",
-				"curr_size-size"
-			],
-			[
-				"siz",
-				"size_status"
-			],
-			[
-				"size",
-				"size_status"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "NodeWeightPair.java",
+			"settings":
+			{
+				"buffer_size": 438,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sample_output/train1.txt",
+			"settings":
+			{
+				"buffer_size": 663549,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -725,14 +742,23 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Nam/Desktop/Hand-writting-recognition"
+		"/Users/Nam/Desktop/Hand-writting-recognition",
+		"/Users/Nam/Desktop/Hand-writting-recognition/mahima",
+		"/Users/Nam/Desktop/Hand-writting-recognition/sample_output"
 	],
 	"file_history":
 	[
-		"/Users/Nam/Desktop/Hand-writting-recognition/to do list.todo",
-		"/Users/Nam/Desktop/Hand-writting-recognition/Node.java",
-		"/Users/Nam/Desktop/Hand-writting-recognition/NodeWeightPair.java",
+		"/Users/Nam/Desktop/Hand-writting-recognition/DigitClassifier.java",
 		"/Users/Nam/Desktop/Hand-writting-recognition/NNImpl.java",
+		"/Users/Nam/Desktop/Hand-writting-recognition/sample_output/sample_output1.txt",
+		"/Users/Nam/Desktop/Hand-writting-recognition/NNImp individual.java",
+		"/Users/Nam/Desktop/Hand-writting-recognition/Node.java",
+		"/Users/Nam/Desktop/Hand-writting-recognition/hand wiriting.sublime-workspace",
+		"/Users/Nam/Desktop/Hand-writting-recognition/hints",
+		"/Volumes/Paddle Generic KF v2.2|CORE/info.txt",
+		"/Users/Nam/Desktop/Hand-writting-recognition/Instance.java",
+		"/Users/Nam/Desktop/Hand-writting-recognition/to do list.todo",
+		"/Users/Nam/Desktop/Hand-writting-recognition/NodeWeightPair.java",
 		"/Users/Nam/Desktop/rand.cpp",
 		"/Users/Nam/Desktop/DecisionTreeImpl.java",
 		"/Users/Nam/Desktop/day one /Journal.txt",
@@ -849,14 +875,7 @@
 		"/Users/Nam/Desktop/Google Drive/Fall 2017/540/HW5/corpus.java",
 		"/Users/Nam/Google Drive/Pro 4.cpp",
 		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/HW5/Essays/corpus.java",
-		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/HW5/corpus.java",
-		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Torus.java",
-		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/working 4/Torus.java",
-		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/working 4/Torus_save.java",
-		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/working 5/Torus.java",
-		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/torus_working 5.java",
-		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/working 5/torus.java",
-		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/Project 2/Torus_original.java"
+		"/Users/Nam/Desktop/OneDrive - UW-Madison/Fall 2017/540/HW5/corpus.java"
 	],
 	"find":
 	{
@@ -874,6 +893,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"predict",
+			"system",
+			"updateWeight",
+			"delta",
+			"loss",
+			"}\n",
+			"for (int i = 0; i < parents.size() ;i++) {\n                    z += (parents.get(i).weight * parents.get(i).node.outputValue);\n                }",
+			"// for (int n; n > hiddenNodes.size(); n++ ) {\n                    //     trainingSet.get(0).hiddenNodes.get(n);\n                    //     // we are doing \n                        \n                    // }",
+			"classValues",
+			"sumOfOutput",
+			"parents",
+			"setInput",
+			"attributes",
+			"Instance"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -900,6 +933,406 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "NodeWeightPair.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.18.region_keys":
+							[
+							],
+							"SL.19.region_keys":
+							[
+							],
+							"SL.40.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										437,
+										438
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										117,
+										118
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										437,
+										438
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										117,
+										118
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sample_output/train1.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 663549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
 		}
 	],
 	"incremental_find":
@@ -919,11 +1352,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.610198029026,
 			1.0
 		],
 		"rows":
@@ -999,7 +1439,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -170,6 +170,12 @@ public class Node {
             // do we need to do w + delta weight in here?
         }
     }
+
+    public void normalizeOutput(double sum) {
+            if (this.type == 4) {
+                this.outputValue /= sum;
+            }
+    }
 }
 
 
