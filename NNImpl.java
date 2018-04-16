@@ -95,68 +95,21 @@ public class NNImpl {
              }
     }
 
-    // public int predict(Instance instance) { // ultimately, we want output
-    //     // TODO: add code here
-    //     // we are given one instance
-    //     // instance contains an array of attributes
-    //     // an attribute contains an array of input values -> so they are # of input?
-
-
-
-    //   // for (Node in : inputNodes ) {
-    //    //     System.out.println("output of input nodes:" + in.getOutput());
-    //     //}
-
-    //     // we need to pass in total outputSums to calculateOutput function
-
-    //     // calculate output for hidden nodes
-
-   
-
-    //     //System.out.println(temp);
-
-    //     // given input for input nodes, we can calculate values of hidden nodes
-    //    // for (int j = 0;j < hiddenNodes.size();j++) {
-    //     //    hiddenNodes.get(j).getOutput();
-    //    // }
-
-    //    // for (int k = 0; k < outputNodes.size();k++) {
-    //    //     outputNodes.get(k).getOutput();; // get nodes and calculate output 
-    //    // }
-
-    //     fp(instance.attributes);
-
-    //     int ret = 0;
-    //     double temp = Double.MIN_VALUE;
-    //   //  System.out.println("output of first: " + temp);
-
-    //     for (int j = 1; j < outputNodes.size(); j++) {
-    //         if (temp < outputNodes.get(j).getOutput()) {
-    //             temp = outputNodes.get(j).getOutput();
-    //             ret = j;
-    //         }
-    //     }
-
-    //    // System.out.println(ret);
-
-    //     return ret;
-    // }
-
      public int predict(Instance instance) {
         // TODO: add code here
            
             
             fp(instance.attributes);
-            double gs = Double.MIN_VALUE;
-            int lab = 0;
+            double temp = Double.MIN_VALUE;
+            int ret = 0;
             
             for (int i = 0; i < instance.classValues.size(); i++) {
-                if (outputNodes.get(i).getOutput() > gs) {
-                    gs = outputNodes.get(i).getOutput();
-                    lab = i;
+                if (outputNodes.get(i).getOutput() > temp) {
+                    temp = outputNodes.get(i).getOutput();
+                    ret = i;
                 }
             }          
-            return lab;
+            return ret;
     }
     /**
      * Train the neural networks with the given parameters
@@ -227,7 +180,7 @@ public class NNImpl {
                     }
 
                     for (int n = 0; n < hiddenNodes.size(); n++ ) {
-                        
+                    
                         double gradient = 0.0;
                     
 
@@ -238,45 +191,12 @@ public class NNImpl {
                         }
 
                         hiddenNodes.get(n).setGradient(gradient);
-
-                       // we are doing 
                     }
 
                     //given outputGradient, we can calculate delta of hidden notes
                     for (Node hid : hiddenNodes ) {
                         hid.calculateDelta(teacher);
                     }
-
-                    // for (Node test : hiddenNodes ) {
-                    //     System.out.println("delta of hidden: " + test.getDelta());
-                    // }
-
-
-                    // getting loss from an instance in the training set
-
-
-                   //  double loss = loss(trainingSet.get(j)); 
-                   // // trainingSet.get(0).attributes.get(0)
-
-                   //  for (int x = 0; x < outputNodes.size(); x++) {
-                   //      if (x == teacher) {
-                   //          //loss += (1 * Math.log(outputNodes.get(x).getOutput()));
-                   //          loss += (trainingSet.get(j).classValues.get(x) * Math.log(outputNodes.get(x).getOutput()));
-                   //          System.out.println(outputNodes.get(x).getOutput());
-                   //      }
-                   //      else {
-                   //          loss += (trainingSet.get(j).classValues.get(x) * Math.log(outputNodes.get(x).getOutput()));
-                   //          System.out.println(outputNodes.get(x).getOutput());
-                   //      }
-                   //  }
-
-                   //  loss = -loss;
-
-                   //  System.out.format("loss : %.8f", + loss);
-
-                   // int temp = 0;
-
-
 
                     // update the weight from hidden nodes to output nodes
                     for (Node out : outputNodes) {
@@ -286,11 +206,6 @@ public class NNImpl {
                     for (Node hid : hiddenNodes) {
                         hid.updateWeight(learningRate);
                     }
-
-
-                   
-                  
-
 
             }   // end for
 
@@ -304,28 +219,6 @@ public class NNImpl {
             System.out.print("Epoch: " + i + ", Loss: ");
             System.out.format("%.8e\n", totalError/trainingSet.size());                
         } // end epoch
-
-        // for (Node out : outputNodes ) {
-        //     for (NodeWeightPair par: out.parents) {
-        //         System.out.println("WEIGHT from hidden to output"  + par.weight);
-        //     }
-        // }
-
-
-        //  // weight from input to hidden
-        // for (int temp = 0; temp < hiddenNodes.size();temp++ ) {
-        //     for (int weight = 0; weight < 3;weight++ ) {
-        //         System.out.println(hiddenNodes.get(temp).parents.get(weight).weight);
-        //     }
-        // }
-
-
-
-
-
-        //          for (Node hid: hiddenNodes ) {
-        //     System.out.println(hid.getOutput());
-        // }
 
     }
 
@@ -355,7 +248,6 @@ public class NNImpl {
         fp(instance.attributes);
         double t = outputNodes.get(instance.classValues.indexOf(1)).getOutput(); 
         
-     return -Math.log(t) ;
-    	
+        return -Math.log(t) ;
     }
 }
